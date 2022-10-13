@@ -1,0 +1,32 @@
+server:
+  port: 9264
+  servlet:
+    context-path: /
+    application-display-name: oncloud-service
+
+spring:
+  application:
+    name: oncloud-service
+#  datasource:
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/maxzhao_ittest?charset=utf8mb4&useSSL=false
+#    username: maxzhao
+#    password: maxzhao
+
+  #redis:
+    #host: 127.0.0.1
+    #port: 6379
+
+    # ��ʱʱ�� ����
+    #timeout: 0
+    #password:
+    # ���ӳ����������
+    #jedis:
+     # pool:
+       # max-active: 1000
+    # ���ӳ���������ȴ�ʱ�䣬��ֵû������
+      #  max-wait: -1
+    # ���ӳ�������������
+      #  max-idle: 10
+    # ���ӳ��е���С��������
+      #  min-idle: 2
